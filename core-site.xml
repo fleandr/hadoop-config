@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://saber-02-vl100-1:8020</value>
+  </property>
+  <property>
+	  <name>hadoop.tmp.dir</name>
+	  <value>/mnt/hdd11/hadooptmp,/mnt/hdd12/hadooptmp,/mnt/hdd13/hadooptmp,/mnt/hdd14/hadooptmp,/mnt/hdd15/hadooptmp,/mnt/hdd16/hadooptmp,/mnt/hdd17/hadooptmp,/mnt/hdd18/hadooptmp,/mnt/hdd19/hadooptmp,/mnt/hdd20/hadooptmp,/mnt/hdd31/hadooptmp,/mnt/hdd32/hadooptmp</value>
+		             <description>A base for other temporary directories.</description>
+			              </property>
+</configuration>
